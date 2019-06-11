@@ -3,7 +3,7 @@ const { FileSystemWallet, Gateway } = require('fabric-network');
 const fs = require('fs');
 
 // A wallet stores a collection of identities for use
-const wallet = new FileSystemWallet('/home/tecadmin/Desktop/fabric-samples/commercial-paper/organization/digibank/identity/user/isabella/wallet');
+const wallet = new FileSystemWallet('/home/tecadmin/Desktop/fabric-samples-cp/commercial-paper/organization/magnetocorp/identity/user/isabella/wallet');
 
 
 export module BlockChainModule {
